@@ -1,0 +1,544 @@
+*{
+    box-sizing: border-box;
+}
+.main-head{
+ 
+    width: 100%;
+    background-color: white;
+display: flex;
+justify-content: space-around;
+align-items: center;
+align-content: center;
+padding-left: 50px;
+margin-bottom: 5px;
+position: fixed;
+z-index: 9999;
+height: 10vh;
+top: 0;
+
+}
+.second-head{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+.headers{
+    width: 100%;
+}
+.in-put{
+   
+    width: 100%;
+    text-indent: 33px;
+    border: none;   
+    border-radius: 1.25rem;
+    padding: 0.5rem 1rem ;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+.in-put::placeholder{
+    font-size: 13px;
+}
+.mag-len{
+
+    position: absolute;
+    margin-left: 10%;
+    bottom: 0;
+   top:15px;
+ 
+}
+.head-search{
+    position: relative;
+}
+ 
+ .user{
+    margin-top: 15px;
+    padding-right:2rem;
+    position: relative;
+    right:1rem;
+    font-size: 20px;   
+ }
+ .first-head-a{
+   flex-grow: 1;
+ }
+ .first-head-a a{
+    text-decoration: none;
+    margin-left: 50px;
+    color: black;
+    font-family: SoDoSans_Light,Helvetica,sans-serif!important;
+}
+.btn2{
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #fff;
+    width: 96px;
+    height: 32px;
+    padding: 0;
+    font-size: 12px;
+    border-radius: 30px;
+}
+.world{
+    width: 100%;
+    margin-top: 5%;
+    background-color: #0e2c1e;
+    height: 15vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1em;
+
+}
+.world:hover{
+    cursor: pointer;
+}
+.left-world h5{
+    color:white;
+    font-size: 20px;
+    font-weight: 300;
+   
+}
+/* .........................................Curations */
+.image-curation{
+    height: 108px;
+    width: 108px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #edebe9;
+    cursor: pointer;
+}
+
+/* ...................................................carousal */
+
+.carousal-position{
+    position:absolute;
+    top:0;
+}
+.image-back{
+    width: 100%;
+    height: 40vh;
+}
+.btn3{
+    color: #ffffff;
+    border-radius: 1.25rem;
+    position: relative;
+    bottom: 1.6rem;
+
+}
+/* ....................... */
+
+
+  
+  .swiper-slide {
+   
+    font-size: 18px;
+   
+  
+    /* Center slide text vertically */
+   
+   
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.card-image{
+    height: 167px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ 
+  }
+  .display-title{
+    position: absolute;
+    font-weight: bold;
+
+  }
+  .display-subTitle{
+    position: absolute;
+  }
+  .para{
+    width: 90%;
+    font-size: 14px;
+    height: 50%;
+    line-height: 20px;
+    text-align: start;
+    font-family: SoDoSans_Light,Helvetica,sans-serif!important;
+   
+  }
+  .last-card{
+
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between
+}
+.btn4{
+    color: #ffffff;
+    border-radius: 1.25rem;
+    font-size: 12px;
+    font-weight: bold;
+}
+.latest-head{
+    font-weight: bold;
+}
+.cardss{
+   
+    box-shadow: 2px 2px 2px 1px #0000005c;
+}
+.barista-main{
+    display: flex;
+   
+ 
+}
+.barista-img img{
+width: 80px;
+height: 80px;
+border-radius: 8px;
+object-fit: cover;
+}
+.barista-para .barista-green{
+width: 16px;
+height: 16px;
+}
+.barista-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.barista-main-head{
+    background-color: white;
+    padding: 1em 1.5em;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    height: 160px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 20rem;
+}
+.view-link {
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-decoration: none;
+    color: #00754a;
+   
+}
+.view-link  h6{
+    font-size: .9rem;
+    cursor: pointer;
+    font-family: Helvetica,sans-serif;
+    font-weight: 600  ;
+    
+}
+/* ......................... */
+
+.img-main{
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+   
+   /* background-image: url('https://preprodtsbstorage.blob.core.windows.net/cms/uploads/coffee_culture_blog_web1_c6e691b286.jpg'); */
+}
+.img-main img{
+    border-radius: 10px;
+    filter: brightness(0.6); 
+    transition:  .5s ease-in-out;
+}
+.learn-img:hover
+{
+    filter: brightness(0.3); 
+}
+.img-btn{
+    width: 200px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 16px;
+    color: #333436;
+    background-color: #fff;
+    text-align: center;
+    font-weight: 600;
+    padding: 8px 24px;
+    border: none;
+}
+.img-heading h3 {
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    color: #fff;
+    margin-bottom: 0.5em!important;
+    font-weight: bold;
+}   
+/* //font-size: 20px;
+width: 85%;
+word-break: break-word; */
+.img-paras{
+    font-family: SoDoSans_Light,Helvetica,sans-serif!important;
+    font-size: 15px;
+    font-weight: 100;
+    width: 75%;
+}
+.img-content{
+    display: flex;
+    flex-direction: column;
+   
+    position: absolute;
+    z-index: 999;
+    bottom:0;
+    text-shadow:  #0000001a;
+   
+}
+ /* .img-content h3,p{
+    /* transform: translate(-50%); */
+    /* text-shadow: 10px 5px 10px rgb(0, 0, 0); */
+ 
+
+li{
+    list-style-type: none;
+    margin-top:2rem;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.footer-main{
+        font-size: small;
+    display: flex;
+    /* justify-content: space-around; */
+    
+}
+.footer-logo{
+    /* margin-right: 3rem;
+    padding-right: 1rem; */
+}
+
+
+.footer-bottom-main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-main a:hover{
+    color: #bbb
+}
+/* .footer-bottom-left{
+    flex-grow: 1;
+}
+.footer-bottom-right{
+    flex-grow: 0;
+} */
+.footer-bottom-left a{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+    font-size: .75em;
+    line-height: 1.5;
+    padding-left: 1rem;
+}
+.footer-bottom-left a:hover{
+    color: #bbb;
+}
+.footer-bottom-left span{
+    padding-left: .6rem;
+    font-size: .75em;;
+}
+.footer-bottom-right p{
+    color: #fff;
+    transition: .3s;
+    font-size: .7em;
+    line-height: 1.5;
+    padding-left: 1rem;
+}
+.social{
+    width:17vh;
+}
+.footer-social {
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* gap: 20px; */
+}
+.view-menu-button{
+    display: none;
+}
+.learn-head{
+    font-weight: 500;
+    line-height: 1.2;
+    font-weight: bold;
+}
+/* ................................................................ */
+@media  (max-width:940px) {
+    .main-head{
+        position: static;
+        display: inline;
+      
+    }
+    .first-head{
+        text-align: center;
+    }
+    .first-head-a{
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+       
+    }
+    .first-head-a a{
+        /* margin: 5px; */
+        padding-right: 1.5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+        
+    }
+    .btn3{
+        padding-left: 10px;
+        padding-right: 20px;
+        font-size: 13px;
+        border-radius: 1rem;
+        
+        
+    }
+    .footer-bottom-main{
+        display: block;
+    }
+    .footer-bottom-left{
+        text-align: center;
+    }
+    .footer-bottom-right{
+        text-align: right;
+    }
+    .img-heading h3{
+        font-size: 18px;
+    }
+   
+}
+@media (max-width:768px) {
+    .footer-main{
+        display: block;
+    }
+    .footer-social{
+        display: block;
+    }
+    .social{
+        width:100%;
+        font-size: 15px;
+    }
+    .footer-app{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-about{
+        margin-right: 1em;        
+    }
+    .footer-main ul {
+        padding-left: 0;
+    }
+    .footer-logo{
+        margin-bottom: 15px;
+    }
+    .view-link{
+
+        display: none;
+    }
+    .view-menu-button{
+        display: block;
+    }
+}
+@media (max-width:482px) {
+    .footer-main {
+        padding-left: 4em;
+    }
+    .footer-about  ul a{
+        display: none;
+        
+    }
+    .footer-about,.footer-response, .footer-quick{
+        padding-bottom: 2em;
+    }
+    .footer-response ul a{
+        display: none;
+    }
+    .footer-quick ul a{
+        display: none;
+    }
+    .footer-bottom-left{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1em;
+    }
+    .footer-bottom-left a span{
+        display: none;
+    }
+    .footer-bottom-right{
+        text-align: center;
+        margin-top: 1em;
+        padding-bottom: 1em;
+    }
+    .image-back{
+            width: 100vh;
+    }
+   
+}
+@media (max-width:1213px) {
+    .barista-slides{
+       gap: 2em;
+    }
+    
+}
+@media (max-width:771px) {
+    .img-main{
+        top:0;
+    }
+    .img-content{
+        top: 0;
+
+    }
+    .img-heading h3{
+        font-size: 15px;
+        padding-top: 2em;
+    }
+    .img-paras{
+        width: 100%;
+    }
+    .img-btn{
+        font-size: 12px;
+        padding: 8px 24px;
+        
+    }
+}
+@media (max-width:530px) {
+   .learn-img{
+    height: 100vh;
+   }
+   .img-main{
+    height: 40vh;
+   }
+    .img-content{
+     top: 15%;
+
+    }
+    .img-heading h3{
+        font-size: 15px;
+        padding-top: 2em;
+    }
+    .img-paras{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .img-btn{
+        font-size: 12px;
+        /* padding: 8px 24px; */
+        
+    }
+    .img-heading h3{
+        width: 75%;
+    }
+    .img-paras {
+        width: 82%;
+    }
+}
